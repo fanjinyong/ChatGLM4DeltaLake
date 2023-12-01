@@ -42,4 +42,6 @@ class ChatglmAPI(object):
             incremental=True
         )
         print(result)
+        print(result['data']['choices'][0]['content'])
         return result['data']['choices'][0]['content']
+

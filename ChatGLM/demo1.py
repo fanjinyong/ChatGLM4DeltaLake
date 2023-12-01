@@ -11,5 +11,5 @@ completion = openai.ChatCompletion.create(
   ]
 )
 
-print(completion.choices[0].message)
+print(completion)
 # https://zhuanlan.zhihu.com/p/655954134
